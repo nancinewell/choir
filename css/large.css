@@ -1,0 +1,42 @@
+
+@media screen and (min-width: 600px){
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav { 
+    height: 45px;
+    background-color: #048BA8;
+    }
+
+
+/* Responsiveness */
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        /* float: right;
+        width: fit-content;
+        background-color: transparent; */
+    }
+    /* .menu li{
+        float: left;
+    } */
+
+    .menu a{
+        padding: 10px;
+    }
+    .menu a:hover{
+        background-color: #048BA8;
+    }
+
+    .hamb{
+        display: none;
+    }
+
+/* * * * * */
+
+}
+
+

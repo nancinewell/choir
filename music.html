@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sparkman Ward Choir | Huntsville, Alabama</title>
+    <meta name="description" content="Sparkman Ward Choir, Huntsville, Alabama">    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link href="css/main.css" rel="stylesheet" media="screen">
+    <link href="css/large.css" rel="stylesheet" media="screen">
+</head>
+    <header>
+        <h1 class="logo">Sparkman Ward Choir</h1>
+        
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="music.html">Practice Tracks & Sheet Music</a></li>
+                <li><a href="schedule.html">Choir Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Practice Tracks and Sheet Music</h2>
+        <p>Select the song for access to sheet music and practice tracks.</p>
+        <p>Running through each song once daily only takes a few minutes per song, and is so valuable.</p>
+        <p>For best results, please come to choice practice. ;)</p>
+
+        <button class="accordion">Song 1</button>
+                <div class="panel">
+					<ul>
+                        <li><a target="new" href=#>Song 1- with Nanci's edits</a></li>
+                        <li><a target="new" href=#>Song 1- original sheet music</a></li>
+						<li><a target="_blank" href=#>Soprano</a></li>
+						<li><a target="_blank" href=#>Alto</a></li>
+						<li><a target="_blank" href=#>Tenor</a></li>
+                        <li><a target="_blank" href=#>Bass</a></li>
+					</ul>
+                </div>
+                <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+                    
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.maxHeight){
+                            panel.style.maxHeight = null;
+                        } else {
+                            panel.style.maxHeight = panel.scrollHeight + "px";
+                        } 
+                        });
+                    }
+                </script>
+    </main>
+    <footer>
+        <p>All content &copy; Nanci Newell</p>
+        <p>Site Design & Hand Coding by Mellen Vine Designs</p>
+    </footer>
+</body>
+</html>
