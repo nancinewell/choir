@@ -82,7 +82,7 @@ nav a: visited{
     color: #2E4057;
 }
 nav a:hover{
-    color: #99C24D;
+    color: #dbf3ae;
 }
 nav a: active{
     color: #2F2D2E;
@@ -100,9 +100,7 @@ nav a: active{
     display: block;
     padding: 30px;
 }
-.menu a:hover{
-    background-color: #fff;
-}
+
 .nav{
     max-height: 0;
     transition: max-height .5s ease-out;
@@ -179,7 +177,7 @@ ul li {
 }
 
 main p{
-    margin: .5rem 0;
+    margin: .75rem 0;
 }
 /* * * * * * * * * * * ACCORDIAN * * * * * * * * * * */
 .accordion {
@@ -242,7 +240,7 @@ main p{
 }
 
 .panel a:hover {
-    color: #996633
+    color: #048ba8
 }
 
 /* * * * * * * * * * * FOOTER * * * * * * * * * * */

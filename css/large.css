@@ -6,6 +6,7 @@ nav ul{
 }
 
 nav { 
+    min-height: 45px;
     height: 45px;
     background-color: #048BA8;
     }
