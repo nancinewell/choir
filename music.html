@@ -31,33 +31,43 @@
         <p>Running through each song once daily only takes a few minutes per song, and is so valuable.</p>
         <p>For best results, please come to choice practice. ;)</p>
 
+        <button class="accordion">If the Savior Stood Beside Me</button>
+        <div class="panel">
+            <ul>
+                <li><a target="new" href=#>Sheet Music with Nanci's Edits</a></li>
+                <li><a target="new" href="https://defordmusic.com/wp-content/uploads/if-the-savior-stood-beside-me-duet-or-two-part-choir-verses-1-2-and-6.pdf">Original Sheet Music</a></li>
+                <li><a target="_blank" href=#>Women Part</a></li>
+                <li><a target="_blank" href=#>Men Part</a></li>
+            </ul>
+        </div>
+        <!-- TEMPLATE
         <button class="accordion">Song 1</button>
-                <div class="panel">
-					<ul>
-                        <li><a target="new" href=#>Song 1- with Nanci's edits</a></li>
-                        <li><a target="new" href=#>Song 1- original sheet music</a></li>
-						<li><a target="_blank" href=#>Soprano</a></li>
-						<li><a target="_blank" href=#>Alto</a></li>
-						<li><a target="_blank" href=#>Tenor</a></li>
-                        <li><a target="_blank" href=#>Bass</a></li>
-					</ul>
-                </div>
-                <script>
-                    var acc = document.getElementsByClassName("accordion");
-                    var i;
-                    
-                    for (i = 0; i < acc.length; i++) {
-                        acc[i].addEventListener("click", function() {
-                        this.classList.toggle("active");
-                        var panel = this.nextElementSibling;
-                        if (panel.style.maxHeight){
-                            panel.style.maxHeight = null;
-                        } else {
-                            panel.style.maxHeight = panel.scrollHeight + "px";
-                        } 
-                        });
-                    }
-                </script>
+        <div class="panel">
+            <ul>
+                <li><a target="new" href=#>Song 1- with Nanci's edits</a></li>
+                <li><a target="new" href=#>Song 1- original sheet music</a></li>
+                <li><a target="_blank" href=#>Soprano</a></li>
+                <li><a target="_blank" href=#>Alto</a></li>
+                <li><a target="_blank" href=#>Tenor</a></li>
+                <li><a target="_blank" href=#>Bass</a></li>
+            </ul>
+        </div> -->
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+                });
+            }
+        </script>
     </main>
     <footer>
         <p>All content &copy; Nanci Newell</p>
