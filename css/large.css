@@ -36,6 +36,10 @@ nav {
         display: none;
     }
 
+
+    main{
+        max-width: 900px;
+    }
 /* * * * * */
 
 }
