@@ -35,10 +35,11 @@ nav {
     .hamb{
         display: none;
     }
+    
 
-
-    main{
+    #welcome {
         max-width: 900px;
+
     }
 /* * * * * */
 
