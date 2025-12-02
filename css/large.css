@@ -2,6 +2,7 @@
 @media screen and (min-width: 800px) {
 body{
     background-color: #f5fbfd;
+    overflow-y: auto;
 }
 
 nav ul{
